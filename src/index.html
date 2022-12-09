@@ -7,8 +7,8 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./style.css">
     <title>HTML Forms</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <fieldset class="personal_information" name="personal-information">
@@ -32,7 +32,7 @@
         >
       </label>
       <label class="personal-info">
-        How old are you?
+        How old are You?
         <input
           name="age"
           type="number"
@@ -123,7 +123,7 @@
         >
           <option value="BMW">BMW</option>
           <option value="Audi">Audi</option>
-          <option value="Renault">Renault</option>
+          <option value="Lada">Lada</option>
         </select>
       </label>
       <label>
@@ -131,6 +131,8 @@
         <input
           name="rate"
           type="range"
+          min="0"
+          max="100"
           required
         >
       </label>
@@ -140,7 +142,6 @@
       <label class="comment">
         Comments:
         <textarea
-          class="comment"
           name="comments"
           required
           autocomplete="off"
