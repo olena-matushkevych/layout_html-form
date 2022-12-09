@@ -1,61 +1,9 @@
 
-.personal_information {
-  padding-bottom: 10px;
+.fieldset {
   margin-bottom: 20px;
 }
 
-.personal-info {
+.label {
   display: block;
   padding-bottom: 10px;
-}
-
-.registration {
-  margin-bottom: 20px;
-}
-
-.regist {
-  display: block;
-  padding-bottom: 10px;
-}
-
-.cats {
-  display: block;
-  padding-bottom: 10px;
-}
-
-.colors {
-  display: block;
-  padding-bottom: 10px;
-}
-
-.time-to-bed {
-  display: block;
-  padding-bottom: 10px;
-}
-
-.car {
-  display: block;
-  padding-bottom: 10px;
-}
-
-.rate-work {
-  display: block;
-  padding-bottom: 10px;
-}
-
-.interesting-fact {
-  margin-bottom: 20px;
-}
-
-.comment {
-  padding-bottom: 10px;
-  display: block;
-}
-
-.recommend {
-  display: block;
-}
-
-.edditional-info {
-  margin-bottom: 20px;
 }

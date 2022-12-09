@@ -12,9 +12,9 @@
   </head>
   <body>
     <form>
-      <fieldset class="personal_information" name="personal-information">
+      <fieldset class="fieldset" name="personal-information">
         <legend>Personal information</legend>
-        <label class="personal-info">
+        <label class="label">
           Surname:
           <input
             name="surname"
@@ -23,7 +23,7 @@
             required
           >
         </label>
-        <label class="personal-info">
+        <label class="label">
           Name:
           <input
             name="name"
@@ -32,7 +32,7 @@
             required
           >
         </label>
-        <label class="personal-info">
+        <label class="label">
           How old are You?
           <input
             name="age"
@@ -43,7 +43,7 @@
             required
           >
         </label>
-        <label class="personal-info">
+        <label class="label">
           Full date of birth:
           <input
             name="birth"
@@ -63,9 +63,9 @@
     </form>
 
     <form>
-      <fieldset class="registration" name="registration-field">
+      <fieldset class="fieldset" name="registration-field">
         <legend>Registration</legend>
-        <label class="regist">
+        <label class="label">
           E-mail:
           <input
             name="email"
@@ -88,24 +88,24 @@
     </form>
 
     <form>
-      <fieldset class="interesting-fact" name="about you">
+      <fieldset class="fieldset" name="about you">
         <legend>An interesting fact about you!</legend>
-        <label class="cats">
+        <label class="label">
           Do you love cats?
           <input
             type="radio"
             name="love-to-cats"
             value="Y"
           >
-          Yes
+            Yes
           <input
-            type="radio"
-            name="love-to-cats"
-            value="N"
+              type="radio"
+              name="love-to-cats"
+              value="N"
           >
-          No
+              No
         </label>
-        <label class="colors">
+        <label class="label">
           What is your favorite color?
           <input
             name="colors"
@@ -113,7 +113,7 @@
             required
           >
         </label>
-        <label class="time-to-bed">
+        <label class="label">
           What time do you go to bed?
           <input
             name="time-of-bed"
@@ -121,7 +121,7 @@
             required
           >
         </label>
-        <label class="car">
+        <label class="label">
           What are your favorite brand of cars?
           <select
             name="cars"
@@ -147,9 +147,9 @@
     </form>
 
     <form>
-      <fieldset class="edditional-info" name="edditional_info">
+      <fieldset class="fieldset" name="edditional_info">
         <legend>Additional info:</legend>
-        <label class="comment">
+        <label class="label">
           Comments:
           <textarea
             name="comments"
@@ -157,7 +157,7 @@
             autocomplete="off"
          ></textarea>
         </label>
-        <label class="recommend">
+        <label>
           Would you recommend us?
           <select name="recommend-us">
             <option value="yes">yes</option>
