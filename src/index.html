@@ -11,150 +11,162 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <fieldset class="personal_information" name="personal-information">
-      <legend>Personal information</legend>
-      <label class="personal-info">
-        Surname:
-        <input
-          name="surname"
-          type="text"
-          autocomplete="off"
-          required
-        >
-      </label>
-      <label class="personal-info">
-        Name:
-        <input
-          name="name"
-          type="text"
-          autocomplete="off"
-          required
-        >
-      </label>
-      <label class="personal-info">
-        How old are You?
-        <input
-          name="age"
-          type="number"
-          value="12"
-          min="1"
-          max="100"
-          required
-        >
-      </label>
-      <label class="personal-info">
-        Full date of birth:
-        <input
-          name="birth"
-          type="date"
-          required
-        >
-      </label>
-      <label>
-        I accept the term of the agreement
-        <input
-          name="agree-term"
-          type="checkbox"
-          required
-        >
-      </label>
-    </fieldset>
-    <fieldset class="registration" name="registration-field">
-      <legend>Registration</legend>
-      <label class="regist">
-        E-mail:
-        <input
-          name="email"
-          type="email"
-          placeholder="email@example.com"
-          required
-        >
-      </label>
-      <label>
-        Password:
-        <input
-          name="password"
-          type="password"
-          required
-          minlength="5"
-          maxlength="10"
-        >
-      </label>
-    </fieldset>
-    <fieldset class="interesting-fact" name="about you">
-      <legend>An interesting fact about you!</legend>
-      <label class="cats">
-        Do you love cats?
-        <input
-          type="radio"
-          name="love-to-cats"
-          value="Y"
-        >
-        Yes
-        <input
-          type="radio"
-          name="love-to-cats"
-          value="N"
-        >
-        No
-      </label>
-      <label class="colors">
-        What is your favorite color?
-        <input
-          name="colors"
-          type="color"
-          required
-        >
-      </label>
-      <label class="time-to-bed">
-        What time do you go to bed?
-        <input
-          name="time-of-bed"
-          type="time"
-          required
-        >
-      </label>
-      <label class="car">
-        What are your favorite brand of cars?
-        <select
-          name="cars"
-          required
-          multiple
-        >
-          <option value="BMW">BMW</option>
-          <option value="Audi">Audi</option>
-          <option value="Lada">Lada</option>
-        </select>
-      </label>
-      <label>
-        How do you rate our work?
-        <input
-          name="rate"
-          type="range"
-          min="0"
-          max="100"
-          required
-        >
-      </label>
-    </fieldset>
-    <fieldset class="edditional-info" name="edditional_info">
-      <legend>Additional info:</legend>
-      <label class="comment">
-        Comments:
-        <textarea
-          name="comments"
-          required
-          autocomplete="off"
-       ></textarea>
-      </label>
-      <label class="recommend">
-        Would you recommend us?
-        <select name="recommend-us">
-          <option value="yes">yes</option>
-          <option value="no">no</option>
-        </select>
-      </label>
-    </fieldset>
+    <form>
+      <fieldset class="personal_information" name="personal-information">
+        <legend>Personal information</legend>
+        <label class="personal-info">
+          Surname:
+          <input
+            name="surname"
+            type="text"
+            autocomplete="off"
+            required
+          >
+        </label>
+        <label class="personal-info">
+          Name:
+          <input
+            name="name"
+            type="text"
+            autocomplete="off"
+            required
+          >
+        </label>
+        <label class="personal-info">
+          How old are You?
+          <input
+            name="age"
+            type="number"
+            value="12"
+            min="1"
+            max="100"
+            required
+          >
+        </label>
+        <label class="personal-info">
+          Full date of birth:
+          <input
+            name="birth"
+            type="date"
+            required
+          >
+        </label>
+        <label>
+          I accept the term of the agreement
+          <input
+            name="agree-term"
+            type="checkbox"
+            required
+          >
+        </label>
+      </fieldset>
+    </form>
+
+    <form>
+      <fieldset class="registration" name="registration-field">
+        <legend>Registration</legend>
+        <label class="regist">
+          E-mail:
+          <input
+            name="email"
+            type="email"
+            placeholder="email@example.com"
+            required
+          >
+        </label>
+        <label>
+          Password:
+          <input
+            name="password"
+            type="password"
+            required
+            minlength="5"
+            maxlength="10"
+          >
+        </label>
+      </fieldset>
+    </form>
+
+    <form>
+      <fieldset class="interesting-fact" name="about you">
+        <legend>An interesting fact about you!</legend>
+        <label class="cats">
+          Do you love cats?
+          <input
+            type="radio"
+            name="love-to-cats"
+            value="Y"
+          >
+          Yes
+          <input
+            type="radio"
+            name="love-to-cats"
+            value="N"
+          >
+          No
+        </label>
+        <label class="colors">
+          What is your favorite color?
+          <input
+            name="colors"
+            type="color"
+            required
+          >
+        </label>
+        <label class="time-to-bed">
+          What time do you go to bed?
+          <input
+            name="time-of-bed"
+            type="time"
+            required
+          >
+        </label>
+        <label class="car">
+          What are your favorite brand of cars?
+          <select
+            name="cars"
+            required
+            multiple
+          >
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Lada">Lada</option>
+          </select>
+        </label>
+        <label>
+          How do you rate our work?
+          <input
+            name="rate"
+            type="range"
+            min="0"
+            max="100"
+            required
+          >
+        </label>
+      </fieldset>
+    </form>
+
+    <form>
+      <fieldset class="edditional-info" name="edditional_info">
+        <legend>Additional info:</legend>
+        <label class="comment">
+          Comments:
+          <textarea
+            name="comments"
+            required
+            autocomplete="off"
+         ></textarea>
+        </label>
+        <label class="recommend">
+          Would you recommend us?
+          <select name="recommend-us">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+          </select>
+        </label>
+      </fieldset>
+    </form>
+
     <button type="submit">Submit</button>
 
     <script type="text/javascript" src="./main.js"></script>
